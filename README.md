@@ -9,7 +9,7 @@ A simple SA(Simulated Annealing) framework
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'sa'
+gem 'simulated_annealing'
 ```
 
 And then execute:
@@ -18,11 +18,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install sa
+    $ gem install simulated_annealing
 
 ## Usage
 
 ```
+require 'simulated_annealing'
+or 
+# require 'sa'
+
 class Unit
   include SA
 

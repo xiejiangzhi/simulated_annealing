@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'sa/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "sa"
+  spec.name          = "simulated_annealing"
   spec.version       = Sa::VERSION
   spec.authors       = ["jiangzhi.xie"]
   spec.email         = ["xiejiangzhi@gmail.com"]

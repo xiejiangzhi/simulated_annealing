@@ -24,7 +24,7 @@ Or install it yourself as:
 
 ```
 require 'simulated_annealing'
-or 
+# or 
 # require 'sa'
 
 class Unit
@@ -54,7 +54,7 @@ class Unit
   end
 end
 
-Unit.simulated_annealing({
+Unit.simulated_annealing(Unit.new, {
   temp: 100,
   cool: Proc {|t| t * 0.95 }
   stop_temp: 0.001

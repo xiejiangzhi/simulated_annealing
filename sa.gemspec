@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Simple Simnulated Annealing framework}
   spec.description   = %q{Simple Simnulated Annealing framework}
-  spec.homepage      = "https:://github.com/xjz19901211/simnulated_annealing"
+  spec.homepage      = "https://github.com/xjz19901211/simulated_annealing"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|

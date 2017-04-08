@@ -31,7 +31,7 @@ module SA
         end
         true
       else
-        p = Math::E ** -((energy - @current_energy) / @current_temp)
+        p = Math.exp(-((energy - @current_energy) / @current_temp))
         v = Kernel.rand
         if v < p
           @current_energy = energy
